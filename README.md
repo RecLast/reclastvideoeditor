@@ -1,58 +1,73 @@
-# RecLast Video Editör
+# 🎬 RecLast Video Editor
 
-RecLast Video Editör is a modern, desktop-based video editing application built with **Electron**, **React**, and **TypeScript**. It provides a smooth and intuitive timeline-based editing experience for creating videos for various platforms like YouTube, TikTok, and Instagram.
+**RecLast Video Editor** is a modern, desktop-based video editing application built with **Electron**, **React**, and **TypeScript**. It provides a smooth and intuitive timeline-based editing experience for creating videos for various platforms like YouTube, TikTok, and Instagram.
 
-![RecLast Editor Screenshot](public/assets/screenshot.png)
+<p align="center">
+  <img src="public/assets/screenshot.png" alt="RecLast Editor Main Screen" width="48%">
+  <img src="public/assets/screenshot2.png" alt="RecLast Editor Timeline" width="48%">
+</p>
 
-## 🚀 Features
+---
+
+## ✨ Features
 
 ### ✅ Implemented Features
-- **Project Management**
-  - **Startup Screen:** Create new projects, load existing ones (`.json`), or choose from templates.
-  - **Templates:** Pre-defined aspect ratios for YouTube (16:9), TikTok (9:16), Instagram (1:1), and more.
-  - **Recent Projects:** Quickly access your previously worked-on projects.
-  - **Auto-Save:** Projects are saved locally.
 
-- **Timeline & Editing**
-  - **Multi-Track Timeline:** Support for unlimited Video and Audio tracks.
-  - **Drag & Drop:** Easily drag media from the Media Panel to the Timeline.
-  - **Clip Manipulation:**
-    - **Move:** Drag clips to rearrange them.
-    - **Trim/Resize:** Drag clip edges to trim start/end points.
-    - **Split:** Cut clips at the playhead position.
-    - **Delete:** Remove unwanted clips.
-  - **Magnetic Snapping:** Toggleable snapping to align clips perfectly.
-  - **Filmstrip View:** Visual thumbnail sequence for video clips.
-  - **Zoom Controls:** Zoom in/out for precise editing.
-  - **Keyboard Navigation:** Use Arrow keys to move playhead by 1 second.
+#### 📂 Project Management
+- **🏠 Startup Screen:** Create new projects, load existing ones (`.json`), or choose from templates.
+- **📐 Templates:** Pre-defined aspect ratios for YouTube (16:9), TikTok (9:16), Instagram (1:1), and more.
+- **🕒 Recent Projects:** Quickly access your previously worked-on projects.
+- **💾 Auto-Save:** Projects are saved locally automatically.
 
-- **Preview & Playback**
-  - Real-time video preview.
-  - Play, Pause, and Seek controls.
-  - Frame-accurate time display.
+#### 🎞️ Timeline & Editing
+- **🎼 Multi-Track Support:** Unlimited Video and Audio tracks.
+- **🖱️ Drag & Drop:** Easily drag media from the Media Panel to the Timeline.
+- **✂️ Clip Manipulation:**
+  - **Move:** Drag clips to rearrange them.
+  - **Trim/Resize:** Drag clip edges to trim start/end points.
+  - **Split:** Cut clips at the playhead position.
+  - **Delete:** Remove unwanted clips.
+- **🧲 Magnetic Snapping:** Toggleable snapping to align clips perfectly.
+- **🎞️ Filmstrip View:** Visual thumbnail sequence for video clips.
+- **🔍 Zoom Controls:** Zoom in/out for precise editing.
+- **⌨️ Keyboard Navigation:** Use Arrow keys to move playhead by 1 second.
 
-- **Properties & Settings**
-  - **Clip Properties:** Adjust Volume, Speed, and Opacity for selected clips.
-  - **Project Settings:** Custom resolution and FPS settings.
+#### 📺 Preview & Playback
+- **▶️ Real-time Preview:** Watch your video instantly as you edit.
+- **⏯️ Playback Controls:** Play, Pause, Seek to Start/End.
+- **⏱️ Precise Time Display:** Frame-accurate time tracking.
 
-- **Media Management**
-  - Import Video, Audio, and Image files.
-  - Preview media before adding to timeline.
+#### ⚙️ Properties & Settings
+- **🎚️ Clip Properties:** Adjust Volume, Speed, and Opacity for selected clips.
+- **🛠️ Project Settings:** Custom resolution and FPS configuration.
 
-### 🚧 Roadmap (Upcoming Features)
-- [ ] **Rendering Engine:** Export final projects to MP4/WebM formats.
-- [ ] **Effects Library:** Video filters, transitions, and color correction.
-- [ ] **Text & Titles:** Rich text editor for overlays, subtitles, and titles.
-- [ ] **Drawing Tools:** Annotate videos with freehand drawing.
-- [ ] **AI Integration:** AI-powered features for auto-editing, background removal, and asset generation.
+#### 📁 Media Management
+- **📥 Import:** Supports Video, Audio, and Image files.
+- **👀 Preview:** Inspect media before adding it to the timeline.
+
+---
+
+## 🚧 Roadmap (Upcoming Features)
+
+- [ ] **🎬 Rendering Engine:** Export final projects to MP4/WebM formats.
+- [ ] **✨ Effects Library:** Video filters, transitions, and color correction.
+- [ ] **📝 Text & Titles:** Rich text editor for overlays, subtitles, and titles.
+- [ ] **✏️ Drawing Tools:** Annotate videos with freehand drawing.
+- [ ] **🤖 AI Integration:** AI-powered features for auto-editing, background removal, and asset generation.
+
+---
 
 ## 🛠️ Tech Stack
-- **Core:** [Electron](https://www.electronjs.org/), [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/)
-- **Build Tool:** [Vite](https://vitejs.dev/)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **State Management:** [Zustand](https://github.com/pmndrs/zustand)
-- **Icons:** [Lucide React](https://lucide.dev/)
-- **Drag & Drop:** Native HTML5 DnD
+
+| Component | Technology |
+|-----------|------------|
+| **Core** | [Electron](https://www.electronjs.org/), [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/) |
+| **Build Tool** | [Vite](https://vitejs.dev/) |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/) |
+| **State Management** | [Zustand](https://github.com/pmndrs/zustand) |
+| **Icons** | [Lucide React](https://lucide.dev/) |
+
+---
 
 ## 📦 Installation & Running
 
@@ -61,9 +76,10 @@ RecLast Video Editör is a modern, desktop-based video editing application built
 - npm or yarn
 
 ### Steps
+
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/RecLastTV/reclastvideoeditor.git
+   git clone https://github.com/RecLast/reclastvideoeditor.git
    cd reclastvideoeditor
    ```
 
@@ -82,8 +98,24 @@ RecLast Video Editör is a modern, desktop-based video editing application built
    npm run electron:build
    ```
 
-## 🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+---
+
+## 🤝 Contributing & Support
+
+We welcome contributions! Whether it's reporting a bug, suggesting a feature, or submitting a pull request, your input is valuable.
+
+- **🐛 Report Bugs:** If you find a bug, please open an issue.
+- **💡 Feature Requests:** Have an idea? Let us know!
+- **💻 Contribute:** Feel free to fork the repo and submit a Pull Request.
+
+### 📬 Contact
+
+For any inquiries, support, or feedback, please reach out:
+
+- **Email:** [iletisim@umiteski.com.tr](mailto:iletisim@umiteski.com.tr)
+- **GitHub:** [RecLast](https://github.com/RecLast)
+
+---
 
 ## 📄 License
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
